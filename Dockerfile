@@ -1,6 +1,6 @@
 FROM node:latest
 
-MAINTAINER Lin Wen Chun <lovecankill@gmail.com>
+MAINTAINER Lin Wen Chun
 
 RUN apt-get -q update
 RUN apt-get -qy install git-core redis-server
